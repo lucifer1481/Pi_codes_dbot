@@ -1,0 +1,56 @@
+[0.197s] Invoking command in '/home/dbot/robot_ws/build/dbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/dbot -- -j4 -l4
+[0.745s] Invoked command in '/home/dbot/robot_ws/build/dbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/dbot -- -j4 -l4
+[0.925s] Invoking command in '/home/dbot/robot_ws/build/dbot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/dbot
+[1.122s] -- Install configuration: ""
+[1.145s] -- Execute custom install script
+[1.163s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/ball_tracker_params_robot.yaml
+[1.173s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/ball_tracker_params_sim.yaml
+[1.183s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/drive_bot.rviz
+[1.194s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/empty.yaml
+[1.204s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/gaz_ros2_ctl_use_sim.yaml
+[1.214s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/gazebo_params.yaml
+[1.226s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/joystick.yaml
+[1.231s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/main.rviz
+[1.242s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/map.rviz
+[1.247s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/mapper_params_online_async.yaml
+[1.260s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/my_controllers.yaml
+[1.277s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/nav2_params.yaml
+[1.281s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/twist_mux.yaml
+[1.292s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/config/view_bot.rviz
+[1.308s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/camera.xacro
+[1.312s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/depth_camera.xacro
+[1.322s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/face.xacro
+[1.326s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/gazebo_control.xacro
+[1.338s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/inertial_macros.xacro
+[1.343s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/lidar.xacro
+[1.349s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/robot.urdf.xacro
+[1.358s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/robot_core.xacro
+[1.365s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/description/ros2_control.xacro
+[1.381s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/ball_tracker.launch.py
+[1.385s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/camera.launch.py
+[1.397s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/joystick.launch.py
+[1.405s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/launch_robot.launch.py
+[1.419s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/launch_sim.launch.py
+[1.424s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/localization_launch.py
+[1.428s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/navigation_launch.py
+[1.433s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/online_async_launch.py
+[1.446s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/rplidar.launch.py
+[1.450s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/launch/rsp.launch.py
+[1.467s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/worlds/empty.world
+[1.480s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/worlds/obstacles.world
+[1.496s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/ament_index/resource_index/package_run_dependencies/dbot
+[1.499s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/ament_index/resource_index/parent_prefix_path/dbot
+[1.503s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/environment/ament_prefix_path.sh
+[1.504s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/environment/ament_prefix_path.dsv
+[1.524s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/environment/path.sh
+[1.526s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/environment/path.dsv
+[1.528s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/local_setup.bash
+[1.539s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/local_setup.sh
+[1.541s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/local_setup.zsh
+[1.543s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/local_setup.dsv
+[1.545s] -- Symlinking: /home/dbot/robot_ws/install/dbot/share/dbot/package.dsv
+[1.718s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/ament_index/resource_index/packages/dbot
+[1.724s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/cmake/dbotConfig.cmake
+[1.730s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/cmake/dbotConfig-version.cmake
+[1.741s] -- Up-to-date symlink: /home/dbot/robot_ws/install/dbot/share/dbot/package.xml
+[1.765s] Invoked command in '/home/dbot/robot_ws/build/dbot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/dbot

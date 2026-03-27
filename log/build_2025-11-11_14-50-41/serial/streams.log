@@ -1,0 +1,38 @@
+[0.093s] Invoking command in '/home/dbot/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/serial -- -j4 -l4
+[0.299s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[0.392s] [ 14%] Built target gtest
+[0.452s] [ 28%] Built target gtest_main
+[0.632s] [ 57%] Built target serial
+[0.761s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[0.765s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[0.781s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[0.931s] [ 71%] Built target serial-test-timer
+[0.959s] [ 85%] Built target serial_example
+[0.963s] [100%] Built target serial-test
+[1.019s] Invoked command in '/home/dbot/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/serial -- -j4 -l4
+[1.032s] Invoking command in '/home/dbot/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/serial
+[1.066s] -- Install configuration: ""
+[1.069s] -- Execute custom install script
+[1.073s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/lib/libserial.a
+[1.076s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/include/serial/serial.h
+[1.078s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/include/serial/v8stdint.h
+[1.082s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/environment/library_path.sh
+[1.085s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/environment/library_path.dsv
+[1.087s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[1.090s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[1.093s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[1.095s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[1.097s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/environment/path.sh
+[1.101s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/environment/path.dsv
+[1.105s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/local_setup.bash
+[1.110s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/local_setup.sh
+[1.112s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/local_setup.zsh
+[1.115s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/local_setup.dsv
+[1.117s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/package.dsv
+[1.151s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[1.154s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.157s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[1.165s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[1.168s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[1.170s] -- Up-to-date symlink: /home/dbot/robot_ws/install/serial/share/serial/package.xml
+[1.173s] Invoked command in '/home/dbot/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/serial

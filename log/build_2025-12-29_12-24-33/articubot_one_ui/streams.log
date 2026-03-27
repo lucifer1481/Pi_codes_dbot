@@ -1,0 +1,28 @@
+[6.111s] Invoking command in '/home/dbot/robot_ws/build/articubot_one_ui': PYTHONPATH=/home/dbot/robot_ws/build/articubot_one_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dbot/robot_ws/install/articubot_one_ui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dbot/robot_ws/build/articubot_one_ui/build --no-deps symlink_data
+[7.438s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.438s]   warnings.warn(
+[7.573s] running develop
+[8.744s] running egg_info
+[8.745s] creating articubot_one_ui.egg-info
+[8.755s] writing articubot_one_ui.egg-info/PKG-INFO
+[8.756s] writing dependency_links to articubot_one_ui.egg-info/dependency_links.txt
+[8.757s] writing entry points to articubot_one_ui.egg-info/entry_points.txt
+[8.757s] writing requirements to articubot_one_ui.egg-info/requires.txt
+[8.758s] writing top-level names to articubot_one_ui.egg-info/top_level.txt
+[8.759s] writing manifest file 'articubot_one_ui.egg-info/SOURCES.txt'
+[8.769s] reading manifest file 'articubot_one_ui.egg-info/SOURCES.txt'
+[8.772s] writing manifest file 'articubot_one_ui.egg-info/SOURCES.txt'
+[8.779s] running build_ext
+[8.780s] Creating /home/dbot/robot_ws/install/articubot_one_ui/lib/python3.10/site-packages/articubot-one-ui.egg-link (link to .)
+[8.785s] Installing play_face script to /home/dbot/robot_ws/install/articubot_one_ui/lib/articubot_one_ui
+[8.786s] Installing play_face_cars script to /home/dbot/robot_ws/install/articubot_one_ui/lib/articubot_one_ui
+[8.787s] Installing ui_node script to /home/dbot/robot_ws/install/articubot_one_ui/lib/articubot_one_ui
+[8.788s] 
+[8.790s] Installed /home/dbot/robot_ws/build/articubot_one_ui
+[8.791s] running symlink_data
+[8.791s] creating /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index
+[8.793s] creating /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index/resource_index
+[8.797s] creating /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index/resource_index/packages
+[8.798s] symbolically linking /home/dbot/robot_ws/build/articubot_one_ui/resource/articubot_one_ui -> /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index/resource_index/packages
+[8.799s] symbolically linking /home/dbot/robot_ws/build/articubot_one_ui/package.xml -> /home/dbot/robot_ws/install/articubot_one_ui/share/articubot_one_ui
+[8.964s] Invoked command in '/home/dbot/robot_ws/build/articubot_one_ui' returned '0': PYTHONPATH=/home/dbot/robot_ws/build/articubot_one_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dbot/robot_ws/install/articubot_one_ui/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dbot/robot_ws/build/articubot_one_ui/build --no-deps symlink_data

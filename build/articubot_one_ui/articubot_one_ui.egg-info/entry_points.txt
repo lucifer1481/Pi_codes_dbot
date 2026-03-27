@@ -1,0 +1,5 @@
+[console_scripts]
+play_face = articubot_one_ui.play_face:main
+play_face_cars = articubot_one_ui.play_face_cars:main
+ui_node = articubot_one_ui.ui_node:main
+

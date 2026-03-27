@@ -1,0 +1,20 @@
+[4.942s] Invoking command in '/home/dbot/robot_ws/build/serial_motor_demo': PYTHONPATH=/home/dbot/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dbot/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dbot/robot_ws/build/serial_motor_demo/build --no-deps symlink_data
+[6.050s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[6.050s]   warnings.warn(
+[6.274s] running develop
+[8.733s] running egg_info
+[8.735s] writing serial_motor_demo.egg-info/PKG-INFO
+[8.737s] writing dependency_links to serial_motor_demo.egg-info/dependency_links.txt
+[8.740s] writing entry points to serial_motor_demo.egg-info/entry_points.txt
+[8.741s] writing requirements to serial_motor_demo.egg-info/requires.txt
+[8.743s] writing top-level names to serial_motor_demo.egg-info/top_level.txt
+[8.762s] reading manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[8.772s] writing manifest file 'serial_motor_demo.egg-info/SOURCES.txt'
+[8.785s] running build_ext
+[8.786s] Creating /home/dbot/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages/serial-motor-demo.egg-link (link to .)
+[8.790s] Installing driver script to /home/dbot/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[8.791s] Installing gui script to /home/dbot/robot_ws/install/serial_motor_demo/lib/serial_motor_demo
+[8.792s] 
+[8.793s] Installed /home/dbot/robot_ws/build/serial_motor_demo
+[8.793s] running symlink_data
+[8.985s] Invoked command in '/home/dbot/robot_ws/build/serial_motor_demo' returned '0': PYTHONPATH=/home/dbot/robot_ws/build/serial_motor_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/dbot/robot_ws/install/serial_motor_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/dbot/robot_ws/build/serial_motor_demo/build --no-deps symlink_data

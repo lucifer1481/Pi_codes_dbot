@@ -1,0 +1,26 @@
+/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+  warnings.warn(
+running develop
+running egg_info
+creating articubot_one_ui.egg-info
+writing articubot_one_ui.egg-info/PKG-INFO
+writing dependency_links to articubot_one_ui.egg-info/dependency_links.txt
+writing entry points to articubot_one_ui.egg-info/entry_points.txt
+writing requirements to articubot_one_ui.egg-info/requires.txt
+writing top-level names to articubot_one_ui.egg-info/top_level.txt
+writing manifest file 'articubot_one_ui.egg-info/SOURCES.txt'
+reading manifest file 'articubot_one_ui.egg-info/SOURCES.txt'
+writing manifest file 'articubot_one_ui.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/dbot/robot_ws/install/articubot_one_ui/lib/python3.10/site-packages/articubot-one-ui.egg-link (link to .)
+Installing play_face script to /home/dbot/robot_ws/install/articubot_one_ui/lib/articubot_one_ui
+Installing play_face_cars script to /home/dbot/robot_ws/install/articubot_one_ui/lib/articubot_one_ui
+Installing ui_node script to /home/dbot/robot_ws/install/articubot_one_ui/lib/articubot_one_ui
+
+Installed /home/dbot/robot_ws/build/articubot_one_ui
+running symlink_data
+creating /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index
+creating /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index/resource_index
+creating /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index/resource_index/packages
+symbolically linking /home/dbot/robot_ws/build/articubot_one_ui/resource/articubot_one_ui -> /home/dbot/robot_ws/install/articubot_one_ui/share/ament_index/resource_index/packages
+symbolically linking /home/dbot/robot_ws/build/articubot_one_ui/package.xml -> /home/dbot/robot_ws/install/articubot_one_ui/share/articubot_one_ui

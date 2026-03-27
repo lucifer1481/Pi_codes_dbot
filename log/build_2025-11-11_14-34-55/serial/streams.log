@@ -1,0 +1,62 @@
+[0.091s] Invoking command in '/home/dbot/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/serial -- -j4 -l4
+[0.205s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.990s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.052s] -- Found ament_cmake_gtest: 1.3.12 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[1.071s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[1.508s] -- Configuring done
+[1.590s] -- Generating done
+[1.618s] -- Build files have been written to: /home/dbot/robot_ws/build/serial
+[1.730s] [35m[1mConsolidate compiler generated dependencies of target serial[0m
+[1.731s] [35m[1mConsolidate compiler generated dependencies of target gtest_main[0m
+[1.732s] [35m[1mConsolidate compiler generated dependencies of target gtest[0m
+[1.797s] [ 14%] Built target gtest_main
+[1.807s] [ 21%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[1.845s] [ 28%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[1.866s] [ 42%] Built target gtest
+[1.881s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[5.347s] [ 57%] [32m[1mLinking CXX static library libserial.a[0m
+[5.500s] [ 57%] Built target serial
+[5.549s] [35m[1mConsolidate compiler generated dependencies of target serial_example[0m
+[5.555s] [35m[1mConsolidate compiler generated dependencies of target serial-test[0m
+[5.574s] [35m[1mConsolidate compiler generated dependencies of target serial-test-timer[0m
+[5.613s] [ 64%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[5.643s] [ 71%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[5.707s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[7.889s] [ 85%] [32m[1mLinking CXX executable serial_example[0m
+[8.411s] [ 85%] Built target serial_example
+[13.165s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[13.165s]                  from [01m[K/home/dbot/robot_ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[13.166s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[13.167s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[13.168s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[13.695s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[14.361s] [ 92%] Built target serial-test-timer
+[14.366s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[14.997s] [100%] Built target serial-test
+[15.038s] Invoked command in '/home/dbot/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/serial -- -j4 -l4
+[15.047s] Invoking command in '/home/dbot/robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/serial
+[15.077s] -- Install configuration: ""
+[15.079s] -- Execute custom install script
+[15.081s] -- Symlinking: /home/dbot/robot_ws/install/serial/lib/libserial.a
+[15.113s] -- Symlinking: /home/dbot/robot_ws/install/serial/include/serial/serial.h
+[15.149s] -- Symlinking: /home/dbot/robot_ws/install/serial/include/serial/v8stdint.h
+[15.184s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/environment/library_path.sh
+[15.218s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/environment/library_path.dsv
+[15.253s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[15.286s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[15.320s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[15.353s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[15.387s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/environment/path.sh
+[15.421s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/environment/path.dsv
+[15.455s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/local_setup.bash
+[15.489s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/local_setup.sh
+[15.522s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/local_setup.zsh
+[15.556s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/local_setup.dsv
+[15.590s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/package.dsv
+[15.624s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[15.659s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[15.693s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[15.727s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[15.761s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[15.796s] -- Symlinking: /home/dbot/robot_ws/install/serial/share/serial/package.xml
+[15.836s] Invoked command in '/home/dbot/robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/serial

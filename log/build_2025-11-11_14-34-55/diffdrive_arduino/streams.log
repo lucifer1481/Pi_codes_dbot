@@ -1,0 +1,65 @@
+[0.054s] Invoking command in '/home/dbot/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/dbot/robot_ws/install/serial:/home/dbot/robot_ws/install/serial_motor_demo_msgs:/home/dbot/robot_ws/install/dbot:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[0.168s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.736s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.770s] -- Found serial: 1.2.1 (/home/dbot/robot_ws/install/serial/share/serial/cmake)
+[0.775s] -- Found hardware_interface: 2.52.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.941s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.952s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.975s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.015s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.064s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.862s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.868s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.943s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.977s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.064s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.096s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[2.134s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.300s] -- Found controller_manager: 2.52.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.741s] -- Configuring done
+[2.841s] -- Generating done
+[2.872s] -- Build files have been written to: /home/dbot/robot_ws/build/diffdrive_arduino
+[2.993s] [35m[1mConsolidate compiler generated dependencies of target fake_robot[0m
+[3.011s] [35m[1mConsolidate compiler generated dependencies of target diffdrive_arduino[0m
+[3.052s] [ 14%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/fake_robot.cpp.o[0m
+[3.061s] [ 28%] [32mBuilding CXX object CMakeFiles/fake_robot.dir/src/wheel.cpp.o[0m
+[3.095s] [ 42%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/diffdrive_arduino.cpp.o[0m
+[3.140s] [ 57%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/wheel.cpp.o[0m
+[4.983s] [ 71%] [32mBuilding CXX object CMakeFiles/diffdrive_arduino.dir/src/arduino_comms.cpp.o[0m
+[21.797s] [ 85%] [32m[1mLinking CXX shared library libfake_robot.so[0m
+[22.118s] [100%] [32m[1mLinking CXX shared library libdiffdrive_arduino.so[0m
+[22.952s] [100%] Built target fake_robot
+[23.048s] [100%] Built target diffdrive_arduino
+[23.094s] Invoked command in '/home/dbot/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/dbot/robot_ws/install/serial:/home/dbot/robot_ws/install/serial_motor_demo_msgs:/home/dbot/robot_ws/install/dbot:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/dbot/robot_ws/build/diffdrive_arduino -- -j4 -l4
+[23.105s] Invoking command in '/home/dbot/robot_ws/build/diffdrive_arduino': CMAKE_PREFIX_PATH=/home/dbot/robot_ws/install/serial:/home/dbot/robot_ws/install/serial_motor_demo_msgs:/home/dbot/robot_ws/install/dbot:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/diffdrive_arduino
+[23.135s] -- Install configuration: ""
+[23.136s] -- Execute custom install script
+[23.138s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[23.173s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[23.207s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[23.241s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/lib/libfake_robot.so
+[23.277s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[23.313s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[23.346s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[23.379s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[23.414s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[23.448s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[23.485s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[23.520s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[23.555s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[23.589s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[23.622s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[23.656s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[23.691s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[23.724s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[23.757s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[23.791s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[23.825s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[23.861s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[23.896s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[23.932s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[23.968s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[24.004s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[24.037s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[24.071s] -- Symlinking: /home/dbot/robot_ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[24.112s] Invoked command in '/home/dbot/robot_ws/build/diffdrive_arduino' returned '0': CMAKE_PREFIX_PATH=/home/dbot/robot_ws/install/serial:/home/dbot/robot_ws/install/serial_motor_demo_msgs:/home/dbot/robot_ws/install/dbot:/home/dbot/robot_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/dbot/robot_ws/build/diffdrive_arduino
